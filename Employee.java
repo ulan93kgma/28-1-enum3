@@ -2,6 +2,10 @@ public class Employee {
     private String fio;
     private int age;
     private int salary;
+    String name;
+    public Employee(String name) {
+    this.name = name;
+    }
 
     public void setFio(String fio) {
         this.fio = fio;
@@ -34,5 +38,8 @@ public class Employee {
     }
     public void person() {
         System.out.print(" FIO: " + fio + ", age: " + age + ", Salary: " + salary + " ");
+    }
+    public void goToVacation() {
+        System.out.println("i going to Bali");
     }
 }

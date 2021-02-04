@@ -18,4 +18,8 @@ public class Manager extends Employee {
         System.out.print("\n" +
                 " developing procedures");
     }
+    @Override
+    public void goToVacation() {
+        System.out.println("I am going to Egipet");
+    }
 }

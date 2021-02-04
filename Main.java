@@ -20,6 +20,26 @@ public class Main {
         Pasha.writeProcedures();
         Sergei.writeProcedures();
         Andrei.goPublic();
+        Aika.goToVacation();
 
+
+        Employee[] EmployeeArray = new Employee[10];
+        EmployeeArray[0] = new Employee("Specialist Aktan");
+        EmployeeArray[1] = new Employee("Specialist Meerim");
+        EmployeeArray[2] = new Employee("Specialist Aika");
+        EmployeeArray[3] = new Employee("Developer Akak");
+        EmployeeArray[4] = new Employee("Developer Ulan");
+        EmployeeArray[5] = new Employee("Developer Sanya");
+        EmployeeArray[6] = new Employee("Developer Saliya");
+        EmployeeArray[7] = new Employee("Manager Pasha");
+        EmployeeArray[8] = new Employee("Manager Sergei");
+        EmployeeArray[9] = new Employee("CEO Andrei");
+
+
+
+        for ( int i = 0; i < EmployeeArray.length; i++) {
+
+            System.out.println(EmployeeArray[i].name + " едет в отпуск в честь дня рождения компании");
+        }
     }
 }

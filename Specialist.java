@@ -1,6 +1,8 @@
 public class Specialist extends Employee {
     private int levels;
 
+
+
     public void setLevels(int levels) {
         this.levels = levels;
     }

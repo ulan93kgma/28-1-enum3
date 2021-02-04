@@ -18,4 +18,8 @@ public class CEO extends Employee {
         System.out.print("\n" +
                 " working on IPO");
     }
+    @Override
+    public void goToVacation() {
+        System.out.println("I am going to Thailand");
+    }
 }
