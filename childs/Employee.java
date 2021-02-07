@@ -1,8 +1,10 @@
+package childs;
+
 public class Employee {
     private String fio;
     private int age;
     private int salary;
-    String name;
+    public String name;
     public Employee(String name) {
     this.name = name;
     }

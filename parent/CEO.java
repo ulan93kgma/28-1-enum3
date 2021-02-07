@@ -1,3 +1,7 @@
+package parent;
+
+import childs.Employee;
+
 public class CEO extends Employee {
     private boolean hasCompanyCar;
 

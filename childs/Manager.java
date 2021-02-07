@@ -1,3 +1,7 @@
+package childs;
+
+import childs.Employee;
+
 public class Manager extends Employee {
     private boolean hasStocks;
 

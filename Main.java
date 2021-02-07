@@ -1,3 +1,9 @@
+import childs.Developer;
+import childs.Employee;
+import childs.Manager;
+import childs.Specialist;
+import parent.CEO;
+
 public class Main {
     public static void main(String[] args) {
         Specialist Aktan = new Specialist("Saardarbekov", 25, 20000, 1 );
@@ -24,16 +30,16 @@ public class Main {
 
 
         Employee[] EmployeeArray = new Employee[10];
-        EmployeeArray[0] = new Employee("Specialist Aktan");
-        EmployeeArray[1] = new Employee("Specialist Meerim");
-        EmployeeArray[2] = new Employee("Specialist Aika");
-        EmployeeArray[3] = new Employee("Developer Akak");
-        EmployeeArray[4] = new Employee("Developer Ulan");
-        EmployeeArray[5] = new Employee("Developer Sanya");
-        EmployeeArray[6] = new Employee("Developer Saliya");
-        EmployeeArray[7] = new Employee("Manager Pasha");
-        EmployeeArray[8] = new Employee("Manager Sergei");
-        EmployeeArray[9] = new Employee("CEO Andrei");
+        EmployeeArray[0] = new Employee("childs.Specialist Aktan");
+        EmployeeArray[1] = new Employee("childs.Specialist Meerim");
+        EmployeeArray[2] = new Employee("childs.Specialist Aika");
+        EmployeeArray[3] = new Employee("childs.Developer Akak");
+        EmployeeArray[4] = new Employee("childs.Developer Ulan");
+        EmployeeArray[5] = new Employee("childs.Developer Sanya");
+        EmployeeArray[6] = new Employee("childs.Developer Saliya");
+        EmployeeArray[7] = new Employee("childs.Manager Pasha");
+        EmployeeArray[8] = new Employee("childs.Manager Sergei");
+        EmployeeArray[9] = new Employee("parent.CEO Andrei");
 
 
 
