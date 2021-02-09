@@ -9,6 +9,10 @@ public class Employee {
     this.name = name;
     }
 
+    public Employee() {
+
+    }
+
     public void setFio(String fio) {
         this.fio = fio;
     }
@@ -44,4 +48,5 @@ public class Employee {
     public void goToVacation() {
         System.out.println("i going to Bali");
     }
+
 }
