@@ -30,11 +30,25 @@ public class Developer extends Employee {
     public void goToVacation() {
         System.out.println("I am going to Maldivy");
     }
+
+    public void printPhrase() {
+        for (Grades grades: Grades.values()) {
+            System.out.println(grades + " " + grades.phrase);
+        }
+    }
+
     public enum Grades {
-        JUNIOR,
-        MIDDLE,
-        SENIOR,
-        TEAMLEAD;
+        JUNIOR("jun developer"),
+        MIDDLE("mid developer"),
+        SENIOR("sen developer"),
+        TEAMLEAD("team developer");
+        String phrase;
+        Grades(String phrase) {
+            this.phrase = phrase;
+        }
+
+
+
     }
     public void printDeveloperGrade() {
         switch (grades) {

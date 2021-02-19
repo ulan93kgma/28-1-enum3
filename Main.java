@@ -26,6 +26,8 @@ public class Main {
         senior.printDeveloperGrade();
         Developer teamlead = new Developer(Developer.Grades.TEAMLEAD);
         teamlead.printDeveloperGrade();
+        Developer developer = new Developer();
+        developer.printPhrase();
 
 
         Aktan.workWithClients();
